@@ -1,0 +1,1515 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media(max-width:480px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Source Sans Pro', sans-serif;
+
+    }
+}
+
+
+
+
+
+                            /* all navigationbar-color */
+#aa{
+    color: rgb(150, 148, 148);
+}
+#home-nav{
+    color: rgb(150, 148, 148);
+}
+#roadmaps-nav{
+    color: rgb(150, 148, 148);
+}
+#login-nav{
+    color: rgb(150, 148, 148);
+}
+#ppr-nav{
+    color: rgb(150, 148, 148);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#dev-color{
+    background-color: rgba(80, 80, 179, 0.24);
+}
+#dev-color{
+    background-color: rgba(80, 80, 179, 0.24);
+}
+
+
+                                                    /* NAVIGATION BAR  */
+
+
+.navigation-bar{
+    background: rgba(0, 0, 0, 0.781);
+    display: flex;
+    padding: 0.5cm;     
+}
+
+
+@media(max-width:480px){
+    
+body {
+    background-color: #0000000a;
+}
+    .navigation-bar{
+        flex-direction: column;
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0.726);
+        position: fixed;
+        margin-bottom: 1cm;
+    }
+    #awesomelogo{display: none;}
+    .lineinsidenavigation{ display: none; }
+    .navitems{padding-left: 3.9cm; padding-bottom: 5px;}
+    #home{padding-left: 2.4cm;} 
+    .secondpart{
+         margin-left: 0cm;
+         width: 0.1cm;
+         padding-left: 0px;
+         text-align:left;
+    }
+    /* #birdimage{display: block;margin-top: 5.2cm; } */
+    #imageafterquote{ margin-top: 5.2cm;  }
+    .thirdpart{ flex-direction: column-reverse; margin-bottom: 1cm; margin: left -10px; }
+    #motivation{font-size: 1cm; margin-left: 1.8cm; width: 30%; }
+    #transitionimage{margin-left: 18cm; width: 9cm;}
+    .flexboxtwo{width:100%;}
+    .whatweprovide{width:2cm;}
+    .providings{flex-direction: column;}
+    #assignments{ margin-left: 2cm;}
+    #consultancy{ margin-left: 2cm;}
+    #roadmaps{ margin-left: 2cm;}
+    .footer {
+        padding-top: 0.8cm;
+        color: white;
+        font-family: 'Karantina', cursive;
+        width: 99%;
+        height: 10cm;
+        margin-top: 2cm;
+        background-color: rgb(5, 15, 59);
+        display: flex;
+        justify-content: space-between;
+    }
+    .about{display: none;}
+    .signup{margin-left: 0.1px; padding-top: 1px;}
+    #quote {
+        margin-top: 5.27cm;
+        margin-left: -1cm;
+        width: 3cm;
+        background-color: rgb(20, 82, 197);
+        margin-left: -19px;
+        color: rgb(0, 0, 0);
+        font-size: 0.3cm;
+        font-family: 'Merriweather', serif;
+        padding-left: 1cm;
+        border-bottom: black solid;
+
+        /* login-page */  
+    }  
+
+    #loginpagesymbol {
+        size: 2cm;
+        font-size: 1cm;
+        margin-left: 4cm;
+        margin-top: 5.4cm;
+        color: rgb(0 0 0);
+    }
+}
+
+
+
+
+
+#fa{
+    size: 1cm;
+    background: rgba(44, 43, 43, 0.959);
+    color: rgba(255, 255, 255, 0.945);
+    height: 0.4cm;
+}
+#home{ 
+                         /* homebutton inside navigation bar  */
+    margin-left: 1.5cm;
+}
+.navitem{
+                         /* items inside navigation bar  */
+    text-decoration: none;
+    list-style: none;
+    padding: 0.4cm;
+    color: rgb(255, 255, 255);
+    
+    width: 15px;
+}
+.navitem:hover{
+    color: white;
+    background-color: rgba(64, 67, 70, 0.164);
+    cursor:pointer;
+    top: 0%;
+    bottom: 0%;
+}
+.lineinsidenavigation{
+    color: black;
+}
+#awesomelogo{
+    background-color: rgb(148, 148, 148);
+    color: rgb(0, 0, 0);
+    border: solid ;
+    border-radius: 3cm;
+    border-width: 0px; 
+}
+#clock{
+    margin-left: 15.8cm;
+    border-left: 1px white solid ;
+    padding-left: 4px;
+    background-color: rgba(255, 255, 255, 0);
+   
+    color: rgb(255, 255, 255);
+    border-bottom: black,15px;
+    width: max-content;  
+}
+                                                /* AFTER NAVIGATIONBAR */
+
+                                                    /* SECOND PART */                 
+
+.secondpart{
+    margin-left: 3cm;
+    display: flex;
+    margin-bottom: 2cm;    
+}
+
+
+
+#quote{
+    width: 5cm;
+    background-color: rgb(20, 82, 197);
+    align-items: center;
+    margin-left: 30%;
+    color: rgb(0, 0, 0);
+    font-size: 1cm;
+    font-family: 'Merriweather', serif;
+    padding-left: 1cm;
+    border-bottom: black solid;
+   
+}
+#imageafterquote{
+    height: 1cm; 
+    margin-left: 10px; 
+    background-color: black;   
+}
+
+#birdimage{
+    padding-top: 0%;
+    width: 2cm;
+    height: 2cm;
+    background-color: black;
+    border: black solid;
+    border-radius: 50%;
+   
+}
+
+
+                                               /* THIRDPART */
+
+.thirdpart{
+    margin-top: 1cm;
+    height: 12cm;
+    display: flex; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+
+}
+.flexboxone{
+    margin-left: 1cm;
+    width: 45%;
+    font-size: 2.5cm; 
+   
+}
+#motivation{
+    font-family: 'Zilla Slab', serif;
+}
+.flexboxtwo{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505_960_720.jpg);
+    height: 5cm;
+    width: 55%;
+    margin-left: 11px;
+    height: 12cm;
+  border-bottom: solid rgb(173, 173, 173);
+  box-shadow: rgb(97, 96, 96)  4px 5px 10px;
+    animation: bgcolourchange 20s ease infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes bgcolourchange{
+    0%{background-image: url(https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505_960_720.jpg);}
+    30%{background-image: url(https://cdn.pixabay.com/photo/2021/02/18/12/03/people-6027028_960_720.jpg);}
+    55%{background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/42/startup-849805_960_720.jpg);}
+    80%{background-image: url(https://cdn.pixabay.com/photo/2015/10/21/08/14/girl-998988__340.jpg);}
+
+}
+
+
+#transitionimage{
+    height: 7cm;
+    width: max-content;
+  background-color: teal;
+    position: absolute;
+    margin-right: 2px;
+}
+#transimage{
+    padding-left:0cm;
+    margin-left: 0%;
+    height: 12cm;
+    margin-right: 3px;
+    width: 18cm;
+    border-bottom: solid rgb(255, 255, 255) ;
+    border-right: solid blue 2px ;
+    border-bottom-right-radius: 1%;
+    position: absolute;
+    background-size: cover;
+    text-shadow: teal;
+    animation: slider 9s infinite linear; 
+}
+#transimage:hover{
+    opacity: 90%;
+}
+
+
+                                         /* FOURTH PART   */
+
+
+.whatweprovide{
+    margin-top: 2cm;
+    font-size: 2cm;
+    font-family: 'Roboto Slab', serif;
+}
+#iconofprovider{
+    color: gray;
+    margin-top: 2px;
+    height: 0.2cm;
+    margin-left: 8px;
+
+}
+#iconofprovider:hover{
+    color: black;
+}
+.providings{
+    display: flex;
+    padding: 10px;
+}
+.itemsinsideprovider{
+    margin: 1cm;
+    background-color: grey;
+    border: solid rgb(0, 0, 0);
+    box-shadow: springgreen 4px;
+    color: rgb(211, 206, 206);
+    font-family: 'Playfair Display', serif;
+}
+.itemsinsideprovider:hover{
+    background-color:rgb(0, 0, 0);
+    opacity: 80%;
+    border: solid gray;
+    cursor: pointer;
+}
+
+#papers{
+    width: 4cm;
+    height: 4cm;
+    margin-left: 2cm;
+    padding-left: 2cm;
+    padding-top: 3cm;
+     
+    
+}
+#assignments{
+    width: 4cm;
+    height: 4cm;
+    padding-left: 1.5cm;
+    padding-top: 3cm;
+}
+#consultancy{
+    width: 4cm;
+    height: 4cm;
+    padding-left: 1.4cm;
+    padding-top: 3cm;
+}
+#roadmaps{
+    width: 4cm;
+    height: 4cm;
+    padding-left: 1.4cm;
+    padding-top: 3cm;
+}
+.linktoall{
+    list-style: none;
+    text-decoration: none;
+    color: honeydew;
+}
+
+
+                                                        /* FOOTER  */
+
+.footer{
+    padding-top: 0.8cm;
+    color: white;
+    font-family: 'Karantina', cursive;
+    width: 100%;
+    height: 5cm;
+    margin-top: 2cm;
+    background-color:rgb(5, 15, 59);
+    display: flex;
+}
+.contacts{
+    margin-left: 1cm;
+}
+.about{
+    margin-left: 4cm;
+}
+.signup{
+    margin-left: 2cm;
+}
+                                    /* footericons */
+#contactus{
+    font-size: 0.6cm;
+}                                    
+#emailicon{
+    color: rgb(252, 1, 1);
+    margin-right: 1.6px;
+    margin-bottom: 4px;
+}
+
+#githubicon{
+    color: blueviolet;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+#discordicon{
+    color: cadetblue;
+    margin-right: 3.2px;
+}
+.contactwriting{
+    text-decoration: none;
+    list-style-type: none;
+    color:grey;
+}
+.contactwriting:hover{
+    color: whitesmoke;
+}
+
+#aboutus{
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 0.6cm;
+}
+.detailsaboutus{
+    color: grey;
+}
+#detailaboutus{
+    text-decoration: none;
+    list-style-type: none;
+    color: hotpink;
+    margin-left: 4px;
+}
+#detailaboutus:hover{
+color: rgb(253, 80, 166);
+}
+
+#signup{
+    font-size: 0.6cm;
+
+}
+#signupdescription{
+    color:grey;
+
+}
+#sign{
+    margin-top: 4px;
+}
+#idofloginicon{
+    margin-right: 0.3cm;
+    color: rgb(236, 253, 0);
+}
+#signupphp{
+text-decoration: none;
+list-style: none;
+color: hotpink;
+}
+#signupphp:hover{
+    color: rgb(253, 80, 166);
+}
+
+                                                    /* COPYRIGHT */
+
+.copyright{
+    background-color: aliceblue;
+}
+
+
+
+                                                    /* loginpage */
+
+#gootoprofile{
+    text-decoration: none;
+    color: rgb(255, 251, 16);
+    font-size: 0.5cm;
+    padding-left: 0.5cm;
+    margin-top: 0.9cm; 
+    padding-top: 1cm; 
+}
+#goto{
+    width: 4cm;
+    height: 0.7cm;
+    background-color: black;
+    margin-left: 3cm;  
+}
+#go{
+    margin-top: 8px;
+    background-color: black;
+    margin-left: 3.5cm;
+    width: 3cm;
+}
+#goto:hover{
+    background-color: rgba(0, 0, 0, 0.418);
+    cursor: pointer;
+}
+
+#gotologout{ text-decoration: none;
+    color: rgb(255, 251, 16);
+    font-size: 0.5cm;
+    padding-left: 0.5cm;
+    margin-top: 0.1cm; 
+    padding-top: 0.1cm;
+    }
+
+     #loginpagesymbol{
+    size: 4cm;
+    font-size: 3cm;
+    margin-left: 16.5cm;
+    margin-top: 1cm;
+    color: rgb(4, 0, 7);
+}
+
+
+ #loginheading{
+     margin-left: 30%;
+     margin-top: 1.2cm;
+     color: rgb(255, 217, 0);
+     font-weight: bolder;
+     font-size: 0.7cm;
+     font-family: 'Fira Sans', sans-serif;  
+ }
+ #loginhorizantalline{
+     width: 45%;
+     align-items: center;
+     justify-content: center;
+     margin-left: 3cm;
+     font-family: 'Bebas Neue', cursive;
+     margin-bottom: 4px;
+     margin-top: 2px;
+     color: blue;
+ }
+
+
+.loginform{
+    width: 10cm;
+    height: 10cm;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-left: 13.5cm;
+  background-color: rgba(0, 0, 0, 0.774);
+  border-radius: 10%;
+   border: solid rgb(0, 0, 0);
+   opacity: 90%;
+   color: white;
+}
+
+#loginmail{
+    background-color: rgba(0, 0, 0, 0.315);
+    color: blanchedalmond;
+    border: solid rgb(255, 255, 255);
+    border-width: 2px;
+    margin-top: 15px;
+    margin-left: 1cm;
+    height: 18px;
+    border-radius: 2px;
+    padding-left: 0.5cm;
+}
+#loginmail:hover{
+    border: yellow solid;
+    border-width: 2px;   
+}
+#loginpassword{
+    margin-top: 10px;
+    margin-left: 14px;
+    border-radius: 2px;
+    height: 18px;
+    background-color: rgba(0, 0, 0, 0.315);
+    color: blanchedalmond;
+    border: solid rgb(255, 255, 255);
+    border-width: 2px;
+    padding-left: 0.5cm;
+}
+#loginpassword:hover{
+    border: yellow solid;
+    border-width: 2px;   
+}
+
+.button{
+    height: 1cm;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-weight: bolder;
+    border: black solid;
+    border-radius: 4px;
+    width: 44%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/22/15/32/soap-bubble-3490954_960_720.jpg);
+}
+.button:hover{
+    border: solid cyan;
+}
+
+
+#loginemailicon{
+    color: brown;
+    border: solid black 40%;
+}
+#loginpasswordicon{
+    color: rgb(42, 165, 165);
+}
+
+
+#loginsubmit{
+    margin-top: 8px;
+    margin-left: 4cm;
+}
+#loginform{
+    margin-left: 1cm;
+}
+.background{
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/29/01/13/background-1866485_960_720.jpg);
+   background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: 20%;
+   
+}
+
+
+#havenotsigned{
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+#registerlogin{
+    margin-left: 4px;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-style: italic;
+    list-style-type: none;
+    text-decoration: none;
+}
+#otherplatforms{
+    margin-left: 1cm;
+}
+.registerplatforms{
+    margin-top: 14px;
+    margin-left: 0px;
+}
+
+#instagram{
+    color: palevioletred;
+    margin-left: 2px;
+}
+#facebook{
+    color: blue;
+    margin-top: 2px;
+}
+#google{
+    color: darkviolet;
+    margin-top: 2px;
+}
+#lineunderplatforms{
+    width: 71%;
+    margin-top: 3px;
+    margin-left: 0.8cm;
+    margin-bottom: 0.3cm;
+    color: cyan;
+    border: cyan solid;
+    border-bottom: thick;
+}
+.footer-login{
+    margin-top: 0%;
+    padding-top: 0.8cm;
+    color: white;
+    font-family: 'Karantina', cursive;
+    width: 100%;
+    height: 5cm;
+    background-color:rgb(5, 15, 59);
+    display: flex;
+
+}
+
+                                                    /* REGISTRATION FORM  */
+
+
+.signupform{
+    display: flex;
+    height: 8cm;
+    width: 15cm;
+    border-right: solid rgb(8, 1, 15);
+    border-top-right-radius: 4cm;
+    border-bottom-right-radius: 4cm;
+    margin-top: 2px;
+    margin-left: 12cm;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding-left: 10px;
+    padding-top: 0.6cm;
+    color: white;
+}
+
+#signupheading{
+    color: yellow;
+}
+#imageinregistrationform{
+    height: 2cm;
+    width: 2cm;
+    border: solid white;
+    border-radius: 4cm;
+    margin-left: 3px;
+    transition-delay: 3ms;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.flexboxonesignup{
+    margin-right: 1cm;
+}
+#horizon-in-between-flex{
+    color: black;
+    height: 6cm;
+    border: black solid 0.4px;
+    margin-right: 6px;
+}
+.registrationdetails{
+    margin-left: 1cm;
+}
+#name{
+    margin-left: 2.5cm;
+    margin-bottom: 3px;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: solid 2px white;
+    padding-left: 1cm;
+    color: white;
+}
+#name:hover{
+    border: solid yellow 2px; 
+}
+#branch{
+    background-color: rgba(0, 0, 0, 0.521);
+    border: solid 2px white;
+    padding-left: 1cm;
+    margin-bottom: 3px;
+    margin-left: 2.3cm;
+    color: white;
+}
+#branch:hover{
+    border: solid yellow 2px;
+}
+#semester{
+    margin-bottom: 3px;   
+    margin-left: 1.8cm;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: solid 2px white;
+    padding-left: 1cm;
+    color: white;
+}
+#semester:hover{
+    border: solid yellow 2px;
+}
+#number{
+    margin-bottom: 3px;
+    margin-left: 0.9cm;
+    padding-left: 1cm;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: solid 2px white;
+}
+#number:hover{
+    border: solid yellow 2px;
+}
+#mail{
+    margin-left: 2.6cm;
+    margin-bottom: 3px;
+    padding-left: 1cm;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: solid 2px white;
+}
+#mail:hover{
+    border: solid yellow 2px;
+}
+#password{
+    margin-bottom: 3px;
+    margin-left: 1.8cm;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: solid 2px white;
+    padding-left: 1cm;
+    color: white;
+}
+#password:hover{
+    border: solid yellow 2px;
+}
+#confirmpassword{
+    background-color: rgba(0, 0, 0, 0.521);
+    border: solid 2px white;
+    padding-left: 1cm;
+    margin-bottom: 3px;
+    margin-left: 0.2cm;
+    color: white;
+}
+#confirmpassword:hover{
+    border: solid yellow 2px;
+}
+#register{
+    margin-left: 7cm;
+    border: solid black; 
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    width: 2.4cm;
+    height: 1cm;
+}
+#register:hover{
+    border: solid cyan;
+    margin-left: 7cm;
+   
+}
+.footer-signup{
+    margin-top: 2px;
+    padding-top: 0.8cm;
+    color: white;
+    font-family: 'Karantina', cursive;
+    width: 100%;
+    height: 5cm;
+    background-color:rgb(5, 15, 59);
+    display: flex;
+}
+#registration-icon{
+    margin-bottom: 2px;
+    margin-left: 18cm;
+    margin-top: 4cm;
+    size: 5cm;
+    font-size: 2cm;
+}
+#iconSize{
+    size: 2cm;
+}
+
+
+
+
+
+                                                    /* ROADMAPS */
+                                 
+
+
+
+
+   #roadmapimage{
+    width: 100%;
+    height: 15cm;
+    opacity: 90%;
+    background-blend-mode: multiply;
+    background-color: blue;
+}
+.navigation-bar-roadmap{
+    background-color:rgba(6, 24, 100, 0.829);
+    display: flex;
+    padding: 0.5cm;   
+    color: aliceblue;  
+}
+#roadmap-hr{
+    color: black;
+    width: 100%;
+    height: 0.2cm;
+}
+
+.thirdpart-roadmaps{
+    font-size: 0.7cm;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+.roadmap{
+    margin-left: 14.9cm;
+    padding-left: 0.65cm;
+    font-size: 1cm;
+    color: rgb(0, 59, 252);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 4px solid black;
+    border-top: none;
+    border-bottom: 2px solid black;
+    margin-right: 14.9cm;
+    background-color: rgb(158, 158, 158);
+    margin-top: 0%;
+}
+.one{
+    margin-left: 25%;
+    margin-bottom: 1cm;
+    display: flex;
+    margin-top: 2cm;
+
+}
+.roadmapflex{
+    margin-left: 2cm;
+    background-color: aqua;
+}
+#webdev{
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/05/10/19/business-2717063__340.jpg);
+    background-blend-mode: difference;
+    opacity: 100%;
+    height: 8cm;
+    width: 7cm;
+    color: black;
+    text-decoration: none;
+    margin-right: 2cm;
+    border: solid 2px black;
+    color: rgb(0, 0, 0);
+   
+}
+#wd:hover{
+  color: red;
+}
+#wd{
+    margin-left: 1.4cm;
+    font-size: 0.6cm;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 100%; 
+}
+
+#androiddev{
+    background-image: url(https://images.pexels.com/photos/1447254/pexels-photo-1447254.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-color: rgb(39, 38, 38);
+    border: solid 2px rgb(0, 0, 0);
+    height: 8cm;
+    width: 7cm;
+    color: black;
+    text-decoration: none;
+    margin-right: 2cm;
+    color: white;
+}
+#android:hover{
+    color: red;
+}
+#android{
+    margin-left: 1.1cm;
+    font-size: 0.6cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+#datascience{
+   background-image: url(https://cdn.pixabay.com/photo/2018/04/18/18/56/cloud-3331240__340.png);
+   background-size: cover;
+   border: black solid 2px;
+    height: 8cm;
+    width: 7cm;
+    color: black;
+    text-decoration: none;
+    margin-right: 2cm;
+}
+#ds:hover{
+   color: red;
+}
+#ds{
+    margin-left: 1.5cm;
+    font-size: 0.8cm;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#cybersecurity{
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/19/12/02/network-4348660__340.png);
+    background-size: cover;
+   border: black solid 2px;
+   color: white;
+    height: 8cm;
+    width: 7cm;
+    color: black;
+    text-decoration: none;
+    margin-right: 2cm;
+}
+#cs:hover{
+    color: red;
+}
+
+#cs{
+    margin-left: 1cm;
+    font-size: 0.9cm;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 3.1cm;
+}
+#dsa{
+    background-image: url(https://cdn.pixabay.com/photo/2020/11/07/10/25/machine-learning-5720531__340.png);
+    border: solid black 2px;
+    height: 8cm;
+    width: 7cm;
+    color: black;
+    text-decoration: none;
+    margin-right: 2cm;
+}
+#dsalgo:hover{
+   color: red;
+}
+#dsalgo{
+    margin-left: 2cm;
+    font-size: 0.8cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+#placements{
+   background-image: url(https://cdn.pixabay.com/photo/2017/08/01/01/28/people-2562626__340.jpg);
+    height: 8cm;
+    width: 7cm;
+    color: black;
+    text-decoration: none;
+    margin-right: 2cm;
+    border: solid black 2px;
+}
+#placement:hover{
+    color: red;
+}
+#placement{
+    margin-left: 1.4cm;
+    font-size: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+.wr{
+    margin-top: 3cm;
+    margin-left: 2cm;
+}
+
+
+/* ABOUT-US */
+
+.html-aboutus{
+    background-color: rgba(0, 0, 0, 0.178);
+}
+.navigation-bar-aboutus{
+    /* background-image: url(https://images.pexels.com/photos/4709853/pexels-photo-4709853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+    background: rgba(0, 0, 0, 0.781);
+    display: flex;
+    padding: 0.5cm;
+    opacity: 84%;;
+}
+#awesomelogo-aboutus{
+    background-color: rgba(148, 148, 148, 0);
+    opacity: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 0.5cm;
+    border: solid white 2px ;
+    border-radius: 3cm;
+    border-width: 0px; 
+}
+
+.vdo{
+    align-content: center;
+    width: 30cm;
+    height: 11cm;
+    margin-left: 3cm;
+    opacity: 90%;
+}
+.vid{
+    width: 30cm;
+    border: 2px black;
+    border-top: 0cm;
+}
+
+.heading-of-aboutus{
+    margin-left: 40%; 
+    font-family: 'Girassol';
+    transition: background-color ease 1s ;
+    width: fit-content;
+}
+
+.heading-of-aboutus{
+   font-size: 2cm;
+}
+.edu{
+    font-size: 0.8cm;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 15px;
+    margin-right: 6px;
+    color: rgb(0, 0, 0);
+}
+
+                                            /* PAPERS */
+
+
+.flexBox-papers{
+    display: flex;
+}
+.first-papers{
+   border-right: black 2px solid;
+   background-color: rgb(37, 39, 39);
+    width: 25%;
+    height: 50cm;
+    
+}
+.fillingPage p{
+    color: blanchedalmond;
+    font-family: 'Girassol', cursive;
+    font-size: 0.5cm;
+    margin-top: 1cm;
+    margin-left: 4px;
+}
+.fillingPage img{
+    height: 2cm;
+    width: 2cm;
+    border-radius: 3cm;
+    border: solid 2px white;
+    margin-left: 1.7cm;
+    opacity: 80%;
+}
+
+ul span{
+    width: 4cm;
+    color: rgb(229, 255, 0);
+    border-bottom: rgb(136, 255, 0) 2px solid ;
+}
+#lefthead{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 0.6cm;
+    padding-top: 4px;
+    padding-left: 2cm;
+}
+.ordered{
+    color: rgb(207, 209, 209);
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 0.5cm;
+}
+.ordereditems{
+   margin-left: 30px;
+   padding-top: 2px;
+}
+.links{
+    font-style: normal;
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+.links:hover{
+    color: rgb(114, 114, 114);
+}
+
+                                   /* MIDDLE */
+
+.second-papers{
+    width: 80%;   
+}
+.second-papers h2{
+    padding-left: 9.8cm;
+    margin-top: 0.75cm;
+    font-family: 'Girassol';
+    font-size: 0.8cm;
+    background-color: rgb(238, 255, 1);
+    color: red;
+}
+
+                            /* all the elements of ece department in papers  */
+.second-papers a{
+    text-decoration: none;
+    font-style: normal;   
+}
+.parts-in-ece-one a{
+    margin-left: 3cm;
+    margin-bottom: 2cm;
+    color: white;
+    margin-top: 1cm;
+}
+.midsess{
+    color: red;
+    border: solid black 1px;
+    width: 8cm;
+    height: 2cm;
+    background-color: rgb(148, 146, 146);
+    margin-bottom: 4px;
+    margin-left: 7cm;
+}
+.midsess:hover{
+    background-color: rgb(182, 174, 174);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: white;
+    cursor: pointer;
+}
+.third-paperss{
+    opacity: 80%;
+    margin-right: 1px;
+   border-left: 2px solid black;
+    width: 30%;
+    height: 17cm;
+    background-image: url(https://images.pexels.com/photos/2519217/pexels-photo-2519217.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=380);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lll img{
+    margin-top: 17.5cm;
+    border-left: black solid 2px;
+    width: 9cm;
+    opacity: 90%;
+    height: 32cm;
+}
+.footer-paper{
+    padding-top: 0.8cm;
+    color: white;
+    font-family: 'Karantina', cursive;
+    width: 100%;
+    height: 5cm;
+    margin-top: 2px;
+    background-color:rgb(5, 15, 59);
+    display: flex;
+}
+
+
+
+                                                    /* WEB DEVELOPMENT */
+
+
+.down{
+    color: azure;
+    list-style: none;
+    text-decoration: none;
+}
+.down:hover{
+    color: rgb(255, 247, 0);
+    background-color: rgba(64, 67, 70, 0.164);
+    height: 3cm;
+}
+.imgbleng{
+    background-color: rgba(0, 0, 0, 0.631);
+    box-shadow: black 2px 4px 4px;
+}
+.d-block{
+    background-color: blue;
+    opacity: 70%;
+}
+
+#welcome-to-wd{
+    margin-left: 28%;
+    padding-left: 2cm;
+    padding-bottom: 1.6cm;
+    padding : auto;
+    color: rgb(9, 9, 201);
+    background-color: rgb(204, 204, 204);
+    margin-right: 30%;
+    height: 1cm;
+    font-size: 1cm;
+    font-family: 'Goblin One';
+    font-weight: bolder;
+    border: black 5px solid ;
+    border-top: none;
+}
+#webdevelopment-description{
+    font-family: 'Playfair Display';
+    font-size: 0.6cm;
+}
+.youtube-webdevelopment img {
+    height: 3cm;
+    width: 4cm;
+    margin-left: 1cm;
+    margin-top: 0.91cm;
+    border-left: 3px black solid;
+    padding-left: 0.2cm; 
+}
+.youtubers h1 {
+    font-family: 'Girassol';
+}
+
+.youtubers-partone{
+    display: flex;
+    margin-left: 5cm;
+}
+.youtubers-parttwo{
+    display: flex;
+    margin-left: 8cm;
+}
+.youtubers-parttwo:hover{
+    display: flex;
+    margin-left: 8cm;
+}
+.card{
+    margin: 0.4cm;
+}
+.card:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+#image-wikipedia{
+    border-left: solid black 3px;
+    padding-left: 0.2cm;
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+    height: 4cm;
+    width: 4cm;
+}
+.webdev-flextwo{
+    margin-left: 40%;
+    display: flex;
+    margin-left: 5cm;
+}
+.wevdeveopment{
+    height: 5cm;
+    width: 10cm;
+    background-color: rgb(21, 19, 19);
+    border: solid;
+    margin: 1cm;
+    padding-top: 2cm;
+    padding-left: 3cm;
+    font-size: 0.6cm;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    border: black solid 1px;
+}
+#webdevelopment-description{
+    margin-left: 7px;
+    margin-right: 6px;
+    font-family: 'Karla';
+}
+.wevdeveopment:hover{
+    background-color: rgba(21, 19, 19, 0.748);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#jp{
+    padding-left: 3.8cm;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer-webdev{
+    padding-top: 0.1cm;
+    color: white;
+    font-family: 'Karantina', cursive;
+    width: 100%;
+    height: 5cm;
+    margin-top: 2cm;
+    background-color:rgb(5, 15, 59);
+    display: flex;
+}
+.contacts{
+    margin-left: 1cm;
+}
+.about{
+    margin-left: 4cm;
+}
+.signup{
+    margin-left: 2cm;
+}
+                                    /* footericons */
+#contactusweb{
+    font-size: 0.6cm;
+}                                    
+
+
+                                                    /* COPYRIGHT */
+
+.copyright{
+    background-color: aliceblue; 
+}
+
+
+/* setting the size of images in web development tutors gallery */
+#aman{
+    height: 7.5cm;
+}
+#harrycwh{
+    height:7.4cm;
+}
+
+
+
+
+                                    /* Android Development */
+
+
+ #welcome-to-ad{
+    margin-left: 24%;
+    padding-left: 2.4cm;
+    padding-bottom: 1.6cm;
+    padding : auto;
+    color: rgb(9, 9, 201);
+    background-color: rgb(204, 204, 204);
+    margin-right: 25%;
+    height: 1cm;
+    font-size: 1cm;
+    font-family: 'Goblin One';
+    font-weight: bolder;
+    border: black 5px solid ;
+    border-top: none;
+
+ }   
+
+                                     /* Data Structures and Algorithm  */
+ .imgbleng-dsa img{
+     opacity: 90%;
+     background-color: black;
+     background-blend-mode: multiply;
+ }
+ #welcome-to-dsa{
+    margin-left: 28%;
+    padding-left: 5cm;
+    padding-bottom: 1.6cm;
+    color: rgb(9, 9, 201);
+    background-color: rgb(204, 204, 204);
+    margin-right: 28%;
+    height: 1cm;
+    font-size: 1cm;
+    font-family: 'Goblin One';
+    font-weight: bolder;
+    border: black 5px solid ;
+    border-top: none;
+
+ }
+ #codingninjas{
+     height: 9cm;
+     width: 7.55cm;
+     border-bottom: solid 1px black;
+ }
+
+                                             /* placements */
+ #welcome-to-placement{
+    margin-left: 28%;
+    padding-left: 3.6cm;
+    padding-bottom: 1.6cm;
+    color: rgb(9, 9, 201);
+    background-color: rgb(204, 204, 204);
+    margin-right: 28%;
+    height: 1cm;
+    font-size: 1cm;
+    font-family: 'Goblin One';
+    font-weight: bolder;
+    border: black 5px solid ;
+    border-top: none;
+
+
+ }
+
+                                            /* cyber Security */
+
+#welcome-to-Cyber{
+    margin-left: 28%;
+    padding-left: 3.2cm;
+    padding-bottom: 1.6cm;
+    color: rgb(9, 9, 201);
+    background-color: rgb(204, 204, 204);
+    margin-right: 28%;
+    height: 1cm;
+    font-size: 1cm;
+    font-family: 'Goblin One';
+    font-weight: bolder;
+    border: black 5px solid ;
+    border-top: none;
+
+}
+
+#jg{
+    height:  9cm;
+}
+
+                                                    /* data science */
+
+#gfgcs{
+    height: 9cm;
+    width: 7.55cm;
+    border-bottom: solid 1px black;
+
+}
+
+
+
+                                                    /* CONSULTS */
+
+/* 
+responsive for consults */
+
+@media(max-width : 731px){
+
+    .consultbody{background-color: rgba(128, 128, 128, 0.123);}
+    .navigation-bar{position: fixed;}
+    .sliders-consult img{ margin-top: 8.2cm;  }
+    .carousel-item { margin-bottom: 2cm;}
+    #youcan{ font-size: 0.5cm; margin-left: 28px; }
+    #cnwrite{font-size: 0.4cm; margin-left: -0.4px;}
+    .whatsappbutton{display: none;}
+    .none{display: block;}
+}
+
+
+   .sliders-consult img{
+    height: 13cm;
+    width: 100%;
+    opacity: 89%;
+}
+
+.whatsapp h1{
+    margin-left: 2.5cm;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8cm;
+}
+.none{display: none;}
+.whatsapp img {
+    width: 5cm;
+    height: 5cm;
+    border-radius: 50%;
+    border: solid rgb(184, 182, 182) 1px;
+    opacity: 91%;
+}
+.whatsapp span {
+    display: flex;
+    width: 90%;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 0.7cm;
+    padding-right: 0.5cm;
+}
+.whatsapp hr{
+    color: grey;
+    width: 90%;
+    margin-left: 2cm;
+}
+
+.whatsappbutton{
+    margin-left: 13cm;
+    margin-top: 1cm;
+    width: 9cm;
+    height: 3cm;
+    background-color: rgb(44, 173, 5);
+    margin-bottom: 1cm;
+}
+.whatsappbutton:hover{  background-color: rgb(31, 126, 2);}
+.whatsappbutton a{
+    text-decoration: none;
+
+}
+.whatsappbutton a p{
+    font-size: 1cm;
+    padding-left: 2cm;
+    padding-top: 0.5cm;
+    color: rgb(255, 255, 255);
+} 
+
